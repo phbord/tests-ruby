@@ -57,11 +57,11 @@ end
 
 describe "#power" do
   it "raises one number to the power of a number" do
-    expect(power(2)).to eq(4)
+    expect(power(2,4)).to eq(16)
   end
 
   it "raises one number to the power of another number" do
-    expect(power(4)).to eq(16)
+    expect(power(4,3)).to eq(64)
   end
 end
 

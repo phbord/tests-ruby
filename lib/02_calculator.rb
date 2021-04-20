@@ -14,8 +14,8 @@ def multiply (n,m)
     return n * m
 end
 
-def power (n)
-    return n * n
+def power (n,m)
+    return n**m
 end
 
 def factorial (n)
